@@ -6,7 +6,6 @@
   "packageRules": [
     {
       "matchManagers": ["github-actions"],
-      "schedule": ["every weekday"],
       "reviewers": ["maze-technology/infrastructure-engineers"]
     }
   ],
