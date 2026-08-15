@@ -1,14 +1,22 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": [
+    "config:recommended"
+  ],
   "automerge": true,
   "automergeType": "pr",
   "packageRules": [
     {
-      "matchManagers": ["github-actions"],
-      "reviewers": ["maze-technology/infrastructure-engineers"]
+      "matchManagers": [
+        "github-actions"
+      ],
+      "reviewers": [
+        "engineers/infrastructure-engineers"
+      ]
     }
   ],
   "dependencyDashboard": true,
-  "configMigration": true
+  "configMigration": true,
+  "reviewersFromCodeOwners": true,
+  "expandCodeOwnersGroups": true
 }
